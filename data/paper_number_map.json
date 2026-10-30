@@ -1,0 +1,166 @@
+{
+  "MSourceItems": {
+    "value": 100,
+    "display": "100"
+  },
+  "MCandidates": {
+    "value": 72,
+    "display": "72"
+  },
+  "MLookups": {
+    "value": 16,
+    "display": "16"
+  },
+  "MRealPairs": {
+    "value": 16,
+    "display": "16"
+  },
+  "MControls": {
+    "value": 6,
+    "display": "6"
+  },
+  "MSourceFiles": {
+    "value": 17,
+    "display": "17"
+  },
+  "MNativeChecks": {
+    "value": 346,
+    "display": "346"
+  },
+  "MDevChecks": {
+    "value": 741,
+    "display": "741"
+  },
+  "MFinalChecks": {
+    "value": 760,
+    "display": "760"
+  },
+  "MDeps": {
+    "value": 37,
+    "display": "37"
+  },
+  "MCaptureBytes": {
+    "value": 922142,
+    "display": "922,142"
+  },
+  "MFigureValues": {
+    "value": 64,
+    "display": "64"
+  },
+  "MCoordinates": {
+    "value": 248,
+    "display": "248"
+  },
+  "MDevReal": {
+    "value": 8,
+    "display": "8"
+  },
+  "MDevControls": {
+    "value": 3,
+    "display": "3"
+  },
+  "MDevNaiveAlerts": {
+    "value": 3,
+    "display": "3"
+  },
+  "MDevReviewCandidates": {
+    "value": 3,
+    "display": "3"
+  },
+  "MDevNaiveFalse": {
+    "value": 0,
+    "display": "0"
+  },
+  "MDevConservativeFalse": {
+    "value": 0,
+    "display": "0"
+  },
+  "MDevUnknown": {
+    "value": 8,
+    "display": "8"
+  },
+  "MDevRepeatMin": {
+    "value": 1227.678087,
+    "display": "1227.678"
+  },
+  "MDevRepeatMax": {
+    "value": 1229.130864,
+    "display": "1229.131"
+  },
+  "MDevReferenceMin": {
+    "value": 177.387202,
+    "display": "177.387"
+  },
+  "MDevReferenceMax": {
+    "value": 259.678217,
+    "display": "259.678"
+  },
+  "MFinalReal": {
+    "value": 8,
+    "display": "8"
+  },
+  "MFinalControls": {
+    "value": 3,
+    "display": "3"
+  },
+  "MFinalNaiveAlerts": {
+    "value": 3,
+    "display": "3"
+  },
+  "MFinalReviewCandidates": {
+    "value": 3,
+    "display": "3"
+  },
+  "MFinalNaiveFalse": {
+    "value": 0,
+    "display": "0"
+  },
+  "MFinalConservativeFalse": {
+    "value": 0,
+    "display": "0"
+  },
+  "MFinalUnknown": {
+    "value": 8,
+    "display": "8"
+  },
+  "MFinalRepeatMin": {
+    "value": 1231.938367,
+    "display": "1231.938"
+  },
+  "MFinalRepeatMax": {
+    "value": 1233.745558,
+    "display": "1233.746"
+  },
+  "MFinalReferenceMin": {
+    "value": 114.356261,
+    "display": "114.356"
+  },
+  "MFinalReferenceMax": {
+    "value": 158.979674,
+    "display": "158.980"
+  },
+  "MObservedItems": {
+    "value": 22,
+    "display": "22"
+  },
+  "MObservations": {
+    "value": 44,
+    "display": "44"
+  },
+  "MRequestSteps": {
+    "value": 76,
+    "display": "76"
+  },
+  "MRealResponses": {
+    "value": 32,
+    "display": "32"
+  },
+  "MControlResponses": {
+    "value": 12,
+    "display": "12"
+  },
+  "MExactGETStarts": {
+    "value": 57,
+    "display": "57"
+  }
+}

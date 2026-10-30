@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "phase": "development",
+  "capture_only": true,
+  "conditions": 334,
+  "private_originals_checked": true,
+  "private_DOM_checked": true,
+  "input_sha256": {
+    "data/observations_development_1.json": "7b03198f70540175389584d87afd58d6be449ef847099d15e05d7bedf1ca61be",
+    "data/references_development.json": "c6a8f242a991716e5ae684cf4f05d1c994dbec12f7b13c61211290fd5426ccbb"
+  },
+  "scope": "Finite stored provenance and independently recomputed arithmetic; not data-file access or human expert validation"
+}

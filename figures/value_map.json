@@ -1,0 +1,568 @@
+[
+  {
+    "figure": "captured_responses",
+    "axes": [
+      {
+        "xlim": [
+          -0.6,
+          3.6
+        ],
+        "ylim": [
+          0.0,
+          11.0
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "status-development-1-0",
+        "axis": 0,
+        "kind": "status",
+        "phase": "development",
+        "number": 1,
+        "role": "real_dataset",
+        "status": 202,
+        "x": -0.18,
+        "width": 0.32,
+        "value": 8,
+        "display": "8"
+      },
+      {
+        "id": "status-development-1-1",
+        "axis": 0,
+        "kind": "status",
+        "phase": "development",
+        "number": 1,
+        "role": "authored_control",
+        "status": 404,
+        "x": 0.18,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "status-development-2-0",
+        "axis": 0,
+        "kind": "status",
+        "phase": "development",
+        "number": 2,
+        "role": "real_dataset",
+        "status": 202,
+        "x": 0.8200000000000001,
+        "width": 0.32,
+        "value": 8,
+        "display": "8"
+      },
+      {
+        "id": "status-development-2-1",
+        "axis": 0,
+        "kind": "status",
+        "phase": "development",
+        "number": 2,
+        "role": "authored_control",
+        "status": 404,
+        "x": 1.18,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "status-final-1-0",
+        "axis": 0,
+        "kind": "status",
+        "phase": "final",
+        "number": 1,
+        "role": "real_dataset",
+        "status": 202,
+        "x": 1.82,
+        "width": 0.32,
+        "value": 8,
+        "display": "8"
+      },
+      {
+        "id": "status-final-1-1",
+        "axis": 0,
+        "kind": "status",
+        "phase": "final",
+        "number": 1,
+        "role": "authored_control",
+        "status": 404,
+        "x": 2.18,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "status-final-2-0",
+        "axis": 0,
+        "kind": "status",
+        "phase": "final",
+        "number": 2,
+        "role": "real_dataset",
+        "status": 202,
+        "x": 2.82,
+        "width": 0.32,
+        "value": 8,
+        "display": "8"
+      },
+      {
+        "id": "status-final-2-1",
+        "axis": 0,
+        "kind": "status",
+        "phase": "final",
+        "number": 2,
+        "role": "authored_control",
+        "status": 404,
+        "x": 3.18,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      }
+    ],
+    "files": {
+      "figures/captured_responses.pdf": "14f3dd13fbc7faed6944e44d4784c15f64288ea7b0fbb034eccc4466543928a4",
+      "figures/captured_responses.svg": "2dc901c5b8afb6e6a01a1563476627448c27a8e060c8c6a09a5beeca46036688",
+      "figures/captured_responses.png": "ea3506288fbfc1d18783e1c1746d28cd2bb242d77b27dea5b9900eb11ffbef95"
+    }
+  },
+  {
+    "figure": "conditional_comparison",
+    "axes": [
+      {
+        "xlim": [
+          -0.6,
+          2.6
+        ],
+        "ylim": [
+          0.0,
+          10.0
+        ]
+      },
+      {
+        "xlim": [
+          -0.6,
+          2.6
+        ],
+        "ylim": [
+          0.0,
+          10.0
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "action-development-0-0",
+        "axis": 0,
+        "kind": "action",
+        "phase": "development",
+        "field": "naive_action",
+        "positive": "broken_alert",
+        "category": 0,
+        "x": -0.18,
+        "width": 0.32,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "action-development-0-1",
+        "axis": 0,
+        "kind": "action",
+        "phase": "development",
+        "field": "naive_action",
+        "positive": "broken_alert",
+        "category": 1,
+        "x": 0.8200000000000001,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "action-development-0-2",
+        "axis": 0,
+        "kind": "action",
+        "phase": "development",
+        "field": "naive_action",
+        "positive": "broken_alert",
+        "category": 2,
+        "x": 1.82,
+        "width": 0.32,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "action-development-1-0",
+        "axis": 0,
+        "kind": "action",
+        "phase": "development",
+        "field": "conservative_action",
+        "positive": "review_doi_candidate",
+        "category": 0,
+        "x": 0.18,
+        "width": 0.32,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "action-development-1-1",
+        "axis": 0,
+        "kind": "action",
+        "phase": "development",
+        "field": "conservative_action",
+        "positive": "review_doi_candidate",
+        "category": 1,
+        "x": 1.18,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "action-development-1-2",
+        "axis": 0,
+        "kind": "action",
+        "phase": "development",
+        "field": "conservative_action",
+        "positive": "review_doi_candidate",
+        "category": 2,
+        "x": 2.18,
+        "width": 0.32,
+        "value": 8,
+        "display": "8"
+      },
+      {
+        "id": "action-final-0-0",
+        "axis": 1,
+        "kind": "action",
+        "phase": "final",
+        "field": "naive_action",
+        "positive": "broken_alert",
+        "category": 0,
+        "x": -0.18,
+        "width": 0.32,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "action-final-0-1",
+        "axis": 1,
+        "kind": "action",
+        "phase": "final",
+        "field": "naive_action",
+        "positive": "broken_alert",
+        "category": 1,
+        "x": 0.8200000000000001,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "action-final-0-2",
+        "axis": 1,
+        "kind": "action",
+        "phase": "final",
+        "field": "naive_action",
+        "positive": "broken_alert",
+        "category": 2,
+        "x": 1.82,
+        "width": 0.32,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "action-final-1-0",
+        "axis": 1,
+        "kind": "action",
+        "phase": "final",
+        "field": "conservative_action",
+        "positive": "review_doi_candidate",
+        "category": 0,
+        "x": 0.18,
+        "width": 0.32,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "action-final-1-1",
+        "axis": 1,
+        "kind": "action",
+        "phase": "final",
+        "field": "conservative_action",
+        "positive": "review_doi_candidate",
+        "category": 1,
+        "x": 1.18,
+        "width": 0.32,
+        "value": 3,
+        "display": "3"
+      },
+      {
+        "id": "action-final-1-2",
+        "axis": 1,
+        "kind": "action",
+        "phase": "final",
+        "field": "conservative_action",
+        "positive": "review_doi_candidate",
+        "category": 2,
+        "x": 2.18,
+        "width": 0.32,
+        "value": 8,
+        "display": "8"
+      }
+    ],
+    "files": {
+      "figures/conditional_comparison.pdf": "c0b6ca5417ee0bc96f2b803519851e97f82c6d97e724b8600ee4962b68c922dc",
+      "figures/conditional_comparison.svg": "ec6a5cf5faae1690d399aa60f533966b50dc94b06f9cabeadd052edc4316a24b",
+      "figures/conditional_comparison.png": "cccda6bd9a57b187b65f27f74adf5b19fc34eb56e0d5e3e7496c2ec83afe95ce"
+    }
+  },
+  {
+    "figure": "observation_timing",
+    "axes": [
+      {
+        "xlim": [
+          0.0,
+          22.5
+        ],
+        "ylim": [
+          -0.6,
+          10.6
+        ]
+      },
+      {
+        "xlim": [
+          0.0,
+          22.5
+        ],
+        "ylim": [
+          -0.6,
+          10.6
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "timing-development-D01",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D01",
+        "x": 2.963961316666667,
+        "value": 20.4855144,
+        "y": 10
+      },
+      {
+        "id": "timing-development-D02",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D02",
+        "x": 2.9564533666666666,
+        "value": 20.46130145,
+        "y": 9
+      },
+      {
+        "id": "timing-development-D03",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D03",
+        "x": 3.8647601,
+        "value": 20.461375266666668,
+        "y": 8
+      },
+      {
+        "id": "timing-development-D04",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D04",
+        "x": 3.8848938166666667,
+        "value": 20.46156136666667,
+        "y": 7
+      },
+      {
+        "id": "timing-development-D05",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D05",
+        "x": 3.9715328,
+        "value": 20.461564516666666,
+        "y": 6
+      },
+      {
+        "id": "timing-development-D06",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D06",
+        "x": 3.9866788166666667,
+        "value": 20.46165703333333,
+        "y": 5
+      },
+      {
+        "id": "timing-development-D07",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D07",
+        "x": 4.065625083333333,
+        "value": 20.461893633333332,
+        "y": 4
+      },
+      {
+        "id": "timing-development-D08",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "D08",
+        "x": 4.08399615,
+        "value": 20.461522183333333,
+        "y": 3
+      },
+      {
+        "id": "timing-development-DC1",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "DC1",
+        "x": 4.185394583333333,
+        "value": 20.470867816666665,
+        "y": 2
+      },
+      {
+        "id": "timing-development-DC2",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "DC2",
+        "x": 4.190354699999999,
+        "value": 20.466332116666667,
+        "y": 1
+      },
+      {
+        "id": "timing-development-DC3",
+        "axis": 0,
+        "kind": "timing",
+        "phase": "development",
+        "item_id": "DC3",
+        "x": 4.327970283333333,
+        "value": 20.4663804,
+        "y": 0
+      },
+      {
+        "id": "timing-final-F01",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F01",
+        "x": 1.9059376833333335,
+        "value": 20.56242596666667,
+        "y": 10
+      },
+      {
+        "id": "timing-final-F02",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F02",
+        "x": 1.9246891833333335,
+        "value": 20.5367628,
+        "y": 9
+      },
+      {
+        "id": "timing-final-F03",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F03",
+        "x": 1.9408184666666666,
+        "value": 20.536702333333334,
+        "y": 8
+      },
+      {
+        "id": "timing-final-F04",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F04",
+        "x": 2.3912547500000003,
+        "value": 20.53695705,
+        "y": 7
+      },
+      {
+        "id": "timing-final-F05",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F05",
+        "x": 2.40761515,
+        "value": 20.536969016666667,
+        "y": 6
+      },
+      {
+        "id": "timing-final-F06",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F06",
+        "x": 2.4227223666666666,
+        "value": 20.53707958333333,
+        "y": 5
+      },
+      {
+        "id": "timing-final-F07",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F07",
+        "x": 2.5142480833333334,
+        "value": 20.536996866666666,
+        "y": 4
+      },
+      {
+        "id": "timing-final-F08",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "F08",
+        "x": 2.5358943833333334,
+        "value": 20.537159466666665,
+        "y": 3
+      },
+      {
+        "id": "timing-final-FC1",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "FC1",
+        "x": 2.6379073,
+        "value": 20.543660916666667,
+        "y": 2
+      },
+      {
+        "id": "timing-final-FC2",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "FC2",
+        "x": 2.6438931666666665,
+        "value": 20.532306116666668,
+        "y": 1
+      },
+      {
+        "id": "timing-final-FC3",
+        "axis": 1,
+        "kind": "timing",
+        "phase": "final",
+        "item_id": "FC3",
+        "x": 2.649661233333333,
+        "value": 20.532320833333333,
+        "y": 0
+      }
+    ],
+    "files": {
+      "figures/observation_timing.pdf": "5fed42819aff07c7e1ade6105f9667b1793a0fdf80c1c794cbb3b4f9130a3d33",
+      "figures/observation_timing.svg": "44118cb708c9754ce258d3a7a857f1af1bf1315d7366271e7f75dc5bd7d9218a",
+      "figures/observation_timing.png": "178f3bed2c60e8c566ad8073b57218a305b345cd5f3b523329c5fb0df05fee3b"
+    }
+  }
+]

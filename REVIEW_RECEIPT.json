@@ -1,0 +1,99 @@
+{
+  "timestamp_utc": "2026-10-30T21:42:35.292124+00:00",
+  "version": "Local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "grade": 4,
+  "criteria": {
+    "source_rights_identity": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Public metadata rights checked;17 exact response originals;100 Crossref items/72 candidate relations;16 distinct Findable Dataset parent/target pairs independently reconstructed with DuckDB/SQL in346 conditions. No source data files downloaded."
+    },
+    "separation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Original committed freeze edb899cea573de4a9b4d2125f7975830bb2f3a59 protects37 actual dependencies and precedes every final observation/reference. Its subject incorrectly says39; manifest/proof count37 is authoritative. No frozen file changed."
+    },
+    "observations_reference_rules_metrics": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "346 native metadata conditions;741 development and760 final native-transcript/DOM/time/action/denominator conditions.22 fixed items and44 actual observations, with16 available real browser references and6 authored not-found controls. In each phase both comparators flag3 controls and zero available real references; conservative returns8 unknown202 states. No observed false-alert reduction or source file availability established."
+    },
+    "figures": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "All three current PNG figures inspected.64 source values,248 actual SVG coordinates and nine hashes independently checked. Timing lines represent actual elapsed times, not uncertainty intervals."
+    },
+    "manuscript": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "41 bound measured values,228 independent source/text/build conditions, six inspected95dpi pages; no TeX layout/glyph warnings. Public CI checks the retained build receipt and artifact hashes without requiring private compiler logs."
+    },
+    "replay": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Python3.10.11 and3.12.14 isolated full-history clones reproduce464 JSON scalar fields,36 fixture methods and three authored CLI examples;37 original frozen dependencies and19 source files unchanged; no new source requests. Numerical results, figures, canonical Git blobs and the312 PDF check pass."
+    }
+  },
+  "gates": {
+    "privacy": "pass_bounded_canonical_scan",
+    "source_metadata": "pass",
+    "reference_evidence": "pass_agent_references_no_independent_human_validation",
+    "timed_repeat": "pass_both_actual_intervals",
+    "final_separation": "pass_original37_dependency_freeze",
+    "observed_capture_budget": "pass",
+    "final_analysis": "pass760_native_DOM_time_action_metric_conditions",
+    "figures": "pass64_values248_coordinates9_hashes",
+    "replay": "pass_two_isolated_full_history_clones",
+    "manuscript": "pass41_source_displays228_checks_and_six_page_review"
+  },
+  "failures_retained": [
+    "Metadata-only preflight second request429; body/receipt preserved; no cohort outcome exposed",
+    "An empty pre-existing examples directory tripped an overwrite guard before files were written; inspected empty directory, retained no-overwrite file guard and completed three authored examples.",
+    "One non-secret file-selector query removed from public reference URL before freeze; private DOM and label preserved.",
+    "Freeze commit subject count typo39; actual manifest/proof lists37 dependencies. Original history preserved.",
+    "Final reference first UI locator timed out with a visible match; subsequent stable DOM retained. One local reference batch variable was reset before its iteration; recovered exact earlier capture times from returned tool evidence without reloading pages or repeating probes."
+  ],
+  "budget": {
+    "substantive_review_round": 3,
+    "maximum_rounds": 3,
+    "active_review_limit_minutes": 45,
+    "review_tool_call_limit": 60,
+    "exact_review_calls": "Not fully instrumented; actual commands/results retained",
+    "active_review_time": "Not separately timed; source acquisition/execution separate from review"
+  },
+  "usage": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-30T21:38:17Z",
+    "window_minutes": 10080,
+    "used_percent": 52,
+    "remaining_percent": 48,
+    "reset_unix": 1793910839,
+    "secondary": "unavailable",
+    "shared_account_not_task_consumption": true
+  },
+  "checked_file_sha256": {
+    "src/rules.py": "d9a2811458aac556b491ab3e4a49f1cb89042510cb00abaf642e9bd1e8d467a3",
+    "src/analyze.py": "bef28971e6592e285ebe3f16213090423164ed3029ec1d0760b84df27eb7d569",
+    "src/verify_captures.py": "6f6001637b50207ffd7616e76a474081bb3cc1f33a8eb62d2f9d262147cf881e",
+    "src/triage_cli.py": "31b0d2e665706d015a85a66ba15b57bb0a11a236bec99ea36c137d7bd89dc8b1",
+    "src/replay.py": "80c249684e0ed297370b13d00e3d7aea052ab7e0c0735a2cee357e012a82f7ab",
+    "src/freeze_proof.py": "66edef38c5ade88a960c0905d37ef18fd6b0c32272564e6ebbcfdac03ab3c395",
+    "data/development_verification.json": "8f0dcb70616184f78f3035e1b40aa69fceb6d38d7240afc49b33ada19ca7b428",
+    "results/development/actions.json": "4b53b6dfd6e36c42ae57748d6e5132ab6cbbc024b45b19872f1e9eb0700e5083",
+    "results/development/summary.json": "650fc870cff1d70ee9ec3242a906de318c0fd5367473706c27c5811bc4bcc4a6",
+    "IMPLEMENTATION_EXERCISE.md": "eefbc7db2ec7ad067031ed1dc3e5f73417524813fd1bb65f628ee88b3355d67b"
+  },
+  "reviewed_files_sha256": {
+    "paper/main.tex": "8db634b8cf5df0b297042117aada5c137959952653871cc690ea2734f72aa1c5",
+    "paper/manuscript.pdf": "db36ed803955da2faa0ae9a11255f3578586826e8aba18e824e2a2533b49e666",
+    "paper/images/captured_responses.pdf": "14f3dd13fbc7faed6944e44d4784c15f64288ea7b0fbb034eccc4466543928a4",
+    "paper/images/conditional_comparison.pdf": "c0b6ca5417ee0bc96f2b803519851e97f82c6d97e724b8600ee4962b68c922dc",
+    "paper/images/observation_timing.pdf": "5fed42819aff07c7e1ade6105f9667b1793a0fdf80c1c794cbb3b4f9130a3d33"
+  },
+  "scope": "Specified local response-triage artifact acceptance. Remote completion additionally requires exact candidate/main CI, matching tested content, annotated tag and program registration. Human adjudication and source file availability are not claimed.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/research-data-link-triage/pull/2"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "phase": "final",
+  "status": "CAPTURED_COMPARISON_PENDING_INDEPENDENT_CHECK",
+  "reference_gate": "PASS",
+  "reference_counts": {
+    "available_landing": 8,
+    "not_found_control": 3
+  },
+  "source_family": "All sixteen real datasets are Karger Figshare; not a multi-repository evaluation",
+  "comparisons": {
+    "naive_action": {
+      "semantics": "broken alert",
+      "total": 11,
+      "reference_evaluable": 11,
+      "reference_unknown": 0,
+      "real_available_reference": 8,
+      "authored_not_found_controls": 3,
+      "tp_control": 3,
+      "fn_control": 0,
+      "fp_available_reference": 0,
+      "tn_available_reference": 8,
+      "alert_count": 3,
+      "deferred_unknown": 0,
+      "apparent_false_alert_fraction": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "control_recall": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "conditional_precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "action_counts": {
+        "broken_alert": 3,
+        "no_broken_alert": 8
+      }
+    },
+    "conservative_action": {
+      "semantics": "DOI review candidate",
+      "total": 11,
+      "reference_evaluable": 11,
+      "reference_unknown": 0,
+      "real_available_reference": 8,
+      "authored_not_found_controls": 3,
+      "tp_control": 3,
+      "fn_control": 0,
+      "fp_available_reference": 0,
+      "tn_available_reference": 8,
+      "alert_count": 3,
+      "deferred_unknown": 8,
+      "apparent_false_alert_fraction": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "control_recall": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "conditional_precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "action_counts": {
+        "review_doi_candidate": 3,
+        "unknown": 8
+      }
+    }
+  },
+  "minimum_repeat_gap_seconds": 1231.938367,
+  "maximum_repeat_gap_seconds": 1233.745558,
+  "first_status_counts": {
+    "202": 8,
+    "404": 3
+  },
+  "second_status_counts": {
+    "202": 8,
+    "404": 3
+  },
+  "input_sha256": {
+    "data/cohort.csv": "24bc699e67049fbce11848ec73a8f57174cdfcd401abf69e444e6c37d9753d1c",
+    "data/observations_final_1.json": "ac5eeea5ac100b9fb4cb927cf5a2a4a098e662dc3aef9cb2f06270eb54022345",
+    "data/observations_final_2.json": "cdee4be9ae2d892eaa96340a412b48515c9041f5fbbe90138e69e233d8e0b294",
+    "data/references_final.json": "9cb18d6d35b318e8b4ec9a6f4ba5996a967f9782745f22bbd729d61b1d472bb2"
+  },
+  "qualifications": [
+    "References are agent-inspected browser pages, not independent human labels or same-instant truth.",
+    "Controls are authored examples, not discovered broken scholarly links.",
+    "Binary non-alert counts include deferred unknowns; do not interpret them as verified available data.",
+    "HTTP 202 records an accepted request without completed content; files were never opened.",
+    "No population error rate, actual workload saving, repair or scientific claim verification."
+  ]
+}

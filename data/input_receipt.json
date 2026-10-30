@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SOURCE_METADATA_COHORT",
+  "source_items": 100,
+  "candidate_pairs": 72,
+  "metadata_lookups": 16,
+  "real_pairs": 16,
+  "authored_controls": 6,
+  "phase_total_counts": {
+    "development": 11,
+    "final": 11
+  },
+  "phase_real_counts": {
+    "development": 8,
+    "final": 8
+  },
+  "prefix_counts": {
+    "10.6084": 16
+  },
+  "independent_conditions": 346,
+  "source_files": 17,
+  "source_hashes_are": "Local stored decoded-entity SHA256, not publisher checksums or wire-byte hashes",
+  "originals_private": true,
+  "all_landing_statuses": "not_yet_observed",
+  "data_files_downloaded": false,
+  "cohort_sha256": "24bc699e67049fbce11848ec73a8f57174cdfcd401abf69e444e6c37d9753d1c"
+}
