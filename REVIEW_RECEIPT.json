@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T21:07:47.170279+00:00",
-  "version": "Complete development evidence before final-group freeze",
-  "status": "INCOMPLETE_FINAL_GROUP_AND_RELEASE_PENDING",
+  "timestamp_utc": "2026-10-30T21:13:50.384896+00:00",
+  "version": "Final first observations and browser reference identity before timed repeat",
+  "status": "INCOMPLETE_FINAL_REPEAT_AND_RELEASE_PENDING",
   "grade": 3,
   "criteria": {
     "source_rights_identity": {
@@ -10,14 +10,14 @@
       "evidence": "Public metadata rights checked;17 exact response originals;100 Crossref items/72 candidate relations;16 distinct Findable Dataset parent/target pairs independently reconstructed with DuckDB/SQL in346 conditions. No source data files downloaded."
     },
     "separation": {
-      "state": "pass_before_final_capture",
+      "state": "pass",
       "grade": 4,
-      "evidence": "No final-group landing/reference outcome observed. Complete fixed rule/checker/development results ready for committed dependency freeze."
+      "evidence": "Original committed freeze edb899cea573de4a9b4d2125f7975830bb2f3a59 protects37 actual dependencies and precedes every final observation/reference. Its subject incorrectly says39; manifest/proof count37 is authoritative. No frozen file changed."
     },
     "observations_reference_rules_metrics": {
       "state": "development_pass_final_unknown",
       "grade": 4,
-      "evidence": "Two actual spaced observations for all eleven development items; eight202/202 and three404/404. Eight available agent browser references, three observed not-found controls.741 independent native/DOM/time/action/metric conditions;36 finite fixture methods;232 JSON scalar fields reproduced under Python3.10.11 and3.12.14; three authored CLI examples. Both rules flag only three controls; no observed false-alert reduction; conservative defers eight202 responses."
+      "evidence": "Two actual spaced observations for all eleven development items; eight202/202 and three404/404. Eight available agent browser references, three observed not-found controls.741 independent native/DOM/time/action/metric conditions;36 finite fixture methods;232 JSON scalar fields reproduced under Python3.10.11 and3.12.14; three authored CLI examples. Both rules flag only three controls; no observed false-alert reduction; conservative defers eight202 responses. Final first capture and browser reference identity:353 independent native/DOM conditions; eight available landing references and three observed not-found controls. Final repeat and measured comparison pending."
     },
     "figures_manuscript_replay_release": {
       "state": "unknown"
@@ -26,15 +26,17 @@
   "gates": {
     "privacy": "pending_staged_scan",
     "source_metadata": "pass",
-    "reference_evidence": "development_pass_final_unknown",
-    "timed_repeat": "development_pass_final_unknown",
-    "final_separation": "pass_before_final_capture",
+    "reference_evidence": "pass_agent_inspection_not_human_validation",
+    "timed_repeat": "development_pass_final_pending",
+    "final_separation": "pass_original_committed_freeze",
     "release": "pending"
   },
   "failures_retained": [
     "Metadata-only preflight second request429; body/receipt preserved; no cohort outcome exposed",
     "An empty pre-existing examples directory tripped an overwrite guard before files were written; inspected empty directory, retained no-overwrite file guard and completed three authored examples.",
-    "One non-secret file-selector query removed from public reference URL before freeze; private DOM and label preserved."
+    "One non-secret file-selector query removed from public reference URL before freeze; private DOM and label preserved.",
+    "Freeze commit subject count typo39; actual manifest/proof lists37 dependencies. Original history preserved.",
+    "Final reference first UI locator timed out with a visible match; subsequent stable DOM retained. One local reference batch variable was reset before its iteration; recovered exact earlier capture times from returned tool evidence without reloading pages or repeating probes."
   ],
   "budget": {
     "substantive_review_round": 2,
