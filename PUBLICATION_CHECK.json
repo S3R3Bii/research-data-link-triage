@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T21:40:32.599818+00:00",
+  "timestamp_utc": "2026-10-30T21:42:38.288307+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 78,
+  "files_checked": 80,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -16,7 +16,7 @@
     "NATIVE_HTTP_BINDING.md": "75376814a0776d3411f8ef1fc71c10bd08ffea114e8618afaba5e52e58ec9004",
     "PROTOCOL.md": "120cdc7fb25676357b6149e705efd4d1ee9109a55440118d4b2d2e0657483599",
     "README.md": "183fc44d7a1e6abed4536a6fb16d53d56b86ec5c5f8fbd197caf3632b1d2ffb3",
-    "REVIEW_RECEIPT.json": "5bdab44a9d0fafc02e162e53902ea87d8917ddaf980fd34d5e5c2e05685a7071",
+    "REVIEW_RECEIPT.json": "019ffe74b543737d823aeb459cb743d2da12cba6335773caadee0c13919d1f07",
     "data/capture_budget_verification.json": "3e549f9d3126192b6e9ac2ea15510da15936ab2c5cf2e59950335bab46a368a1",
     "data/cohort.csv": "24bc699e67049fbce11848ec73a8f57174cdfcd401abf69e444e6c37d9753d1c",
     "data/dependency_freeze.json": "fb3cdcf36b72f767576b6adce04cdc9ecb64583f93cce464b8c09ad5c74eec8f",
@@ -63,6 +63,8 @@
     "results/development/summary.json": "650fc870cff1d70ee9ec3242a906de318c0fd5367473706c27c5811bc4bcc4a6",
     "results/final/actions.json": "160fb9e50ac909e418591b6c8172201581af5aa7b3d8b8ef370ecf046ab4254a",
     "results/final/summary.json": "e13f81b5ef46ad0a7c80177da129041733b08b3c1a6e0ddb257848d5fe80aba1",
+    "results/reproduction_cpython310.json": "1785cc27176bd252f7ff125a4dfc66ac1ae977c5c74920f18eb86d33fb958755",
+    "results/reproduction_cpython312.json": "6ca8305494ef492389d2c45c061004e7548e5437cd99b2ec3f807b7412d68504",
     "src/acquire_metadata.py": "2fcd24046164b15cf021046eca68725d7e08c95482a059dd656e94d482e7b7ed",
     "src/analyze.py": "bef28971e6592e285ebe3f16213090423164ed3029ec1d0760b84df27eb7d569",
     "src/freeze_proof.py": "66edef38c5ade88a960c0905d37ef18fd6b0c32272564e6ebbcfdac03ab3c395",

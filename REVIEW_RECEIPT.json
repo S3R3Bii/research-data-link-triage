@@ -1,8 +1,8 @@
 {
-  "timestamp_utc": "2026-10-30T21:40:29.642461+00:00",
-  "version": "Complete local artifact before isolated full-history replay and remote release",
-  "status": "INCOMPLETE_FULL_CLONE_AND_REMOTE_RELEASE_PENDING",
-  "grade": 3,
+  "timestamp_utc": "2026-10-30T21:42:35.292124+00:00",
+  "version": "Local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "grade": 4,
   "criteria": {
     "source_rights_identity": {
       "state": "pass",
@@ -19,10 +19,6 @@
       "grade": 4,
       "evidence": "346 native metadata conditions;741 development and760 final native-transcript/DOM/time/action/denominator conditions.22 fixed items and44 actual observations, with16 available real browser references and6 authored not-found controls. In each phase both comparators flag3 controls and zero available real references; conservative returns8 unknown202 states. No observed false-alert reduction or source file availability established."
     },
-    "figures_manuscript_replay_release": {
-      "state": "unknown",
-      "evidence": "Three figure/six paper page source and visual checks pass; isolated full-history replay and exact remote release pending."
-    },
     "figures": {
       "state": "pass",
       "grade": 4,
@@ -32,19 +28,23 @@
       "state": "pass",
       "grade": 4,
       "evidence": "41 bound measured values,228 independent source/text/build conditions, six inspected95dpi pages; no TeX layout/glyph warnings. Public CI checks the retained build receipt and artifact hashes without requiring private compiler logs."
+    },
+    "replay": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Python3.10.11 and3.12.14 isolated full-history clones reproduce464 JSON scalar fields,36 fixture methods and three authored CLI examples;37 original frozen dependencies and19 source files unchanged; no new source requests. Numerical results, figures, canonical Git blobs and the312 PDF check pass."
     }
   },
   "gates": {
-    "privacy": "pending_staged_scan",
+    "privacy": "pass_bounded_canonical_scan",
     "source_metadata": "pass",
     "reference_evidence": "pass_agent_references_no_independent_human_validation",
     "timed_repeat": "pass_both_actual_intervals",
     "final_separation": "pass_original37_dependency_freeze",
-    "release": "pending",
     "observed_capture_budget": "pass",
     "final_analysis": "pass760_native_DOM_time_action_metric_conditions",
     "figures": "pass64_values248_coordinates9_hashes",
-    "replay": "full_history_pending",
+    "replay": "pass_two_isolated_full_history_clones",
     "manuscript": "pass41_source_displays228_checks_and_six_page_review"
   },
   "failures_retained": [
@@ -90,5 +90,10 @@
     "paper/images/captured_responses.pdf": "14f3dd13fbc7faed6944e44d4784c15f64288ea7b0fbb034eccc4466543928a4",
     "paper/images/conditional_comparison.pdf": "c0b6ca5417ee0bc96f2b803519851e97f82c6d97e724b8600ee4962b68c922dc",
     "paper/images/observation_timing.pdf": "5fed42819aff07c7e1ade6105f9667b1793a0fdf80c1c794cbb3b4f9130a3d33"
+  },
+  "scope": "Specified local response-triage artifact acceptance. Remote completion additionally requires exact candidate/main CI, matching tested content, annotated tag and program registration. Human adjudication and source file availability are not claimed.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/research-data-link-triage/pull/2"
   }
 }
