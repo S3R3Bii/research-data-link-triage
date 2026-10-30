@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T20:42:51.703655+00:00",
-  "version": "Source-qualified checkpoint before link observations",
-  "status": "INCOMPLETE_SOURCE_PASS_OBSERVATIONS_PENDING",
+  "timestamp_utc": "2026-10-30T21:01:46.022573+00:00",
+  "version": "Development first observations, fixed rules and offline exercise before timed repeat",
+  "status": "INCOMPLETE_REPEAT_AND_FINAL_PENDING",
   "grade": 3,
   "criteria": {
     "source_rights_identity": {
@@ -11,25 +11,28 @@
     },
     "separation": {
       "state": "pass_at_this_checkpoint",
-      "evidence": "Eight real DOI groups and three authored controls per phase; no landing/reference outcome observed for either phase"
+      "evidence": "No final-group landing or reference inspected. Source metadata only may include all sixteen distinct datasets."
     },
     "observations_reference_rules_metrics": {
-      "state": "unknown"
+      "state": "partial",
+      "evidence": "First development capture and separate agent browser references:334 independent provenance/identity conditions. Thirty-six fixture methods and three authored offline CLI examples pass. Repeat and measured comparison pending."
     },
     "figures_manuscript_replay_release": {
       "state": "unknown"
     }
   },
   "gates": {
-    "privacy": "pass_minimal_metadata_pending_canonical_scan",
+    "privacy": "pending_staged_scan",
     "source_metadata": "pass",
-    "reference_evidence": "unknown",
-    "timed_repeat": "unknown",
-    "final_separation": "pending",
+    "reference_evidence": "development_pass_final_unknown",
+    "timed_repeat": "pending",
+    "final_separation": "pass_before_final_capture",
     "release": "pending"
   },
   "failures_retained": [
-    "Metadata-only preflight second request429; body/receipt preserved; no cohort outcome exposed"
+    "Metadata-only preflight second request429; body/receipt preserved; no cohort outcome exposed",
+    "An empty pre-existing examples directory tripped an overwrite guard before files were written; inspected empty directory, retained no-overwrite file guard and completed three authored examples.",
+    "One non-secret file-selector query removed from public reference URL before freeze; private DOM and label preserved."
   ],
   "budget": {
     "substantive_review_round": 1,
@@ -41,12 +44,20 @@
   },
   "usage": {
     "source": "Codex get_usage_limits",
-    "observed_utc": "2026-10-30T20:36:29Z",
+    "observed_utc": "2026-10-30T21:00:00Z",
     "window_minutes": 10080,
     "used_percent": 49,
     "remaining_percent": 51,
     "reset_unix": 1793910839,
     "secondary": "unavailable",
     "shared_account_not_task_consumption": true
+  },
+  "checked_file_sha256": {
+    "src/rules.py": "d9a2811458aac556b491ab3e4a49f1cb89042510cb00abaf642e9bd1e8d467a3",
+    "src/analyze.py": "bef28971e6592e285ebe3f16213090423164ed3029ec1d0760b84df27eb7d569",
+    "src/verify_captures.py": "6f6001637b50207ffd7616e76a474081bb3cc1f33a8eb62d2f9d262147cf881e",
+    "src/triage_cli.py": "31b0d2e665706d015a85a66ba15b57bb0a11a236bec99ea36c137d7bd89dc8b1",
+    "data/development_capture_verification.json": "9d1621d10138c55687a6bbbfa3ffa4b036431cb2b059d850273380a4d4518c9f",
+    "IMPLEMENTATION_EXERCISE.md": "eefbc7db2ec7ad067031ed1dc3e5f73417524813fd1bb65f628ee88b3355d67b"
   }
 }

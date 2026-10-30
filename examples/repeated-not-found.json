@@ -1,0 +1,31 @@
+{
+  "example_kind": "authored_not_source_observations",
+  "first": {
+    "item_id": "AUTHORED-EXAMPLE",
+    "dataset_doi": "10.0000/study42.authored",
+    "role": "authored_example",
+    "started_utc": "2026-01-01T00:00:00+00:00",
+    "completed_utc": "2026-01-01T00:00:01+00:00",
+    "request_made": true,
+    "terminal_http_status": 404,
+    "censor_reason": null,
+    "transport_error_type": null,
+    "chain": [],
+    "data_file_availability": "not_tested",
+    "data_file_body_downloaded": false
+  },
+  "second": {
+    "item_id": "AUTHORED-EXAMPLE",
+    "dataset_doi": "10.0000/study42.authored",
+    "role": "authored_example",
+    "started_utc": "2026-01-01T00:20:01+00:00",
+    "completed_utc": "2026-01-01T00:20:02+00:00",
+    "request_made": true,
+    "terminal_http_status": 410,
+    "censor_reason": null,
+    "transport_error_type": null,
+    "chain": [],
+    "data_file_availability": "not_tested",
+    "data_file_body_downloaded": false
+  }
+}
