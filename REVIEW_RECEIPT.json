@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T21:35:34.086469+00:00",
-  "version": "Complete final comparison and inspected figures before manuscript and release",
-  "status": "INCOMPLETE_MANUSCRIPT_REPLAY_AND_REMOTE_RELEASE_PENDING",
+  "timestamp_utc": "2026-10-30T21:40:29.642461+00:00",
+  "version": "Complete local artifact before isolated full-history replay and remote release",
+  "status": "INCOMPLETE_FULL_CLONE_AND_REMOTE_RELEASE_PENDING",
   "grade": 3,
   "criteria": {
     "source_rights_identity": {
@@ -20,12 +20,18 @@
       "evidence": "346 native metadata conditions;741 development and760 final native-transcript/DOM/time/action/denominator conditions.22 fixed items and44 actual observations, with16 available real browser references and6 authored not-found controls. In each phase both comparators flag3 controls and zero available real references; conservative returns8 unknown202 states. No observed false-alert reduction or source file availability established."
     },
     "figures_manuscript_replay_release": {
-      "state": "unknown"
+      "state": "unknown",
+      "evidence": "Three figure/six paper page source and visual checks pass; isolated full-history replay and exact remote release pending."
     },
     "figures": {
       "state": "pass",
       "grade": 4,
       "evidence": "All three current PNG figures inspected.64 source values,248 actual SVG coordinates and nine hashes independently checked. Timing lines represent actual elapsed times, not uncertainty intervals."
+    },
+    "manuscript": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "41 bound measured values,228 independent source/text/build conditions, six inspected95dpi pages; no TeX layout/glyph warnings. Public CI checks the retained build receipt and artifact hashes without requiring private compiler logs."
     }
   },
   "gates": {
@@ -39,7 +45,7 @@
     "final_analysis": "pass760_native_DOM_time_action_metric_conditions",
     "figures": "pass64_values248_coordinates9_hashes",
     "replay": "full_history_pending",
-    "manuscript": "pending"
+    "manuscript": "pass41_source_displays228_checks_and_six_page_review"
   },
   "failures_retained": [
     "Metadata-only preflight second request429; body/receipt preserved; no cohort outcome exposed",
@@ -58,10 +64,10 @@
   },
   "usage": {
     "source": "Codex get_usage_limits",
-    "observed_utc": "2026-10-30T21:30:04Z",
+    "observed_utc": "2026-10-30T21:38:17Z",
     "window_minutes": 10080,
-    "used_percent": 51,
-    "remaining_percent": 49,
+    "used_percent": 52,
+    "remaining_percent": 48,
     "reset_unix": 1793910839,
     "secondary": "unavailable",
     "shared_account_not_task_consumption": true
@@ -77,5 +83,12 @@
     "results/development/actions.json": "4b53b6dfd6e36c42ae57748d6e5132ab6cbbc024b45b19872f1e9eb0700e5083",
     "results/development/summary.json": "650fc870cff1d70ee9ec3242a906de318c0fd5367473706c27c5811bc4bcc4a6",
     "IMPLEMENTATION_EXERCISE.md": "eefbc7db2ec7ad067031ed1dc3e5f73417524813fd1bb65f628ee88b3355d67b"
+  },
+  "reviewed_files_sha256": {
+    "paper/main.tex": "8db634b8cf5df0b297042117aada5c137959952653871cc690ea2734f72aa1c5",
+    "paper/manuscript.pdf": "db36ed803955da2faa0ae9a11255f3578586826e8aba18e824e2a2533b49e666",
+    "paper/images/captured_responses.pdf": "14f3dd13fbc7faed6944e44d4784c15f64288ea7b0fbb034eccc4466543928a4",
+    "paper/images/conditional_comparison.pdf": "c0b6ca5417ee0bc96f2b803519851e97f82c6d97e724b8600ee4962b68c922dc",
+    "paper/images/observation_timing.pdf": "5fed42819aff07c7e1ade6105f9667b1793a0fdf80c1c794cbb3b4f9130a3d33"
   }
 }

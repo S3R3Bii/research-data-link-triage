@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SOURCE_BOUND_MANUSCRIPT",
+  "bound_measured_displays": 41,
+  "conditions": 228,
+  "pages": 6,
+  "PDF_text_extracted": true,
+  "visual_page_inspection": "Separate owner inspection of all six 95dpi rendered pages",
+  "paper_sha256": "db36ed803955da2faa0ae9a11255f3578586826e8aba18e824e2a2533b49e666",
+  "source_sha256": "8db634b8cf5df0b297042117aada5c137959952653871cc690ea2734f72aa1c5",
+  "limits": "Finite source/text/retained-build checks; public CI does not compile TeX or access private logs. Agent references and source file availability remain qualified."
+}
