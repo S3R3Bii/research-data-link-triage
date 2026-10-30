@@ -1,0 +1,7 @@
+# Recorded environment and evidence boundaries
+
+Source metadata capture used CPython 3.10.11 and Requests 2.32.3, without authentication or personal email transmission. One fixed 100-item Crossref response and sixteen DataCite public responses form the qualified source snapshot. Calls to the same host were separated by at least two seconds. The earlier metadata-only preflight's immediate second request returned 429; it is retained privately and did not become a missing-link label. No source-cohort retry, endpoint/identity rotation or dataset-file download was used.
+
+Independent source qualification used CPython 3.12.14 and DuckDB 2.0.0 in a task-specific optional environment. DuckDB's JSON parser/SQL independently reconstruct all candidate relations and the selected sixteen unique parent/target pairs in 346 conditions. Both subject- and object-asserted source relations are retained with their native provenance. HTTP observations and browser reference labels are still pending at this checkpoint.
+
+Source response originals remain private. Stored entity hashes are local SHA256 values of Requests-decoded response bodies, not published checksums or compressed wire-byte hashes. The public package contains only the minimal source facts/ledgers and sanitized evidence. DataCite Findable metadata do not establish that source files are available. No model fitting, independent human expert validation or production reliability measurement has occurred.

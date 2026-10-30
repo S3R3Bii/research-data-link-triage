@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-10-30T20:42:51.703655+00:00",
+  "version": "Source-qualified checkpoint before link observations",
+  "status": "INCOMPLETE_SOURCE_PASS_OBSERVATIONS_PENDING",
+  "grade": 3,
+  "criteria": {
+    "source_rights_identity": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Public metadata rights checked;17 exact response originals;100 Crossref items/72 candidate relations;16 distinct Findable Dataset parent/target pairs independently reconstructed with DuckDB/SQL in346 conditions. No source data files downloaded."
+    },
+    "separation": {
+      "state": "pass_at_this_checkpoint",
+      "evidence": "Eight real DOI groups and three authored controls per phase; no landing/reference outcome observed for either phase"
+    },
+    "observations_reference_rules_metrics": {
+      "state": "unknown"
+    },
+    "figures_manuscript_replay_release": {
+      "state": "unknown"
+    }
+  },
+  "gates": {
+    "privacy": "pass_minimal_metadata_pending_canonical_scan",
+    "source_metadata": "pass",
+    "reference_evidence": "unknown",
+    "timed_repeat": "unknown",
+    "final_separation": "pending",
+    "release": "pending"
+  },
+  "failures_retained": [
+    "Metadata-only preflight second request429; body/receipt preserved; no cohort outcome exposed"
+  ],
+  "budget": {
+    "substantive_review_round": 1,
+    "maximum_rounds": 3,
+    "active_review_limit_minutes": 45,
+    "review_tool_call_limit": 60,
+    "exact_review_calls": "Not fully instrumented; actual commands/results retained",
+    "active_review_time": "Not separately timed; source acquisition/execution separate from review"
+  },
+  "usage": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-30T20:36:29Z",
+    "window_minutes": 10080,
+    "used_percent": 49,
+    "remaining_percent": 51,
+    "reset_unix": 1793910839,
+    "secondary": "unavailable",
+    "shared_account_not_task_consumption": true
+  }
+}

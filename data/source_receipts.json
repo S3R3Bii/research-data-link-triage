@@ -1,0 +1,318 @@
+[
+  {
+    "key": "crossref-cohort",
+    "url": "https://api.crossref.org/works?rows=100&filter=type%3Ajournal-article%2Crelation.type%3Ais-supplemented-by%2Crelation.object-type%3Adoi%2Cfrom-pub-date%3A2019-01-01%2Cuntil-pub-date%3A2019-12-31&sort=published&order=asc&select=DOI%2Crelation%2Cpublished%2Ctype",
+    "params": {
+      "rows": 100,
+      "filter": "type:journal-article,relation.type:is-supplemented-by,relation.object-type:doi,from-pub-date:2019-01-01,until-pub-date:2019-12-31",
+      "sort": "published",
+      "order": "asc",
+      "select": "DOI,relation,published,type"
+    },
+    "started_utc": "2026-10-30T20:39:43.405436+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Content-Length": "2428",
+      "Content-Encoding": "gzip",
+      "X-Rate-Limit-Limit": "1",
+      "X-Rate-Limit-Interval": "1s",
+      "X-Concurrency-Limit": "1"
+    },
+    "stored_bytes": 30708,
+    "sha256": "2711480b511c50f0ceed99c3c87b3e35f8a488058c09ddd5afb2764779cf02fb",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:43.876569+00:00",
+    "body_file": "crossref-cohort.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-6953acb43bb1875b97e2",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.8313056",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:43.877570+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 10137,
+    "sha256": "b9664066257ddd10ac31d87fa33c338c96a9a17d96d6b93c4f6bae7bb1a87c07",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:44.608282+00:00",
+    "body_file": "datacite-6953acb43bb1875b97e2.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-5a5cde7e96a34a323527",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7813412",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:46.594997+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 10744,
+    "sha256": "8d0eaf58fe8a8269648ec4a03685accefc59647446277c0f7a1e257d3aad0451",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:46.734259+00:00",
+    "body_file": "datacite-5a5cde7e96a34a323527.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-915ff43199b524ed0d4e",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7542788",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:48.734986+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 12644,
+    "sha256": "872faea5c6a716ff2a13d46475b6bf874816defd0a5125c096ade7498f086386",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:48.879036+00:00",
+    "body_file": "datacite-915ff43199b524ed0d4e.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-a2c049b822468d251c2e",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7546724",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:50.879733+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 10155,
+    "sha256": "d4659e732f3f3c640f186f04f48f7a671f9c4eef8c0ff9b289e1bff60a0b7b41",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:51.015843+00:00",
+    "body_file": "datacite-a2c049b822468d251c2e.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-5ee37349f3199ee802dc",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7836929",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:53.017447+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 7846,
+    "sha256": "ec6d355fffbde49565fa7eb21d7f7159b4215138c51eaa782816b15948f830af",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:53.165721+00:00",
+    "body_file": "datacite-5ee37349f3199ee802dc.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-ae4cb4b2241032a15e61",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7680401",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:55.166613+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 10174,
+    "sha256": "7861590fb21f0d6b2cebde561ddcdb1a4f3cf454df12f160383f5c3c382e1d94",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:55.299689+00:00",
+    "body_file": "datacite-ae4cb4b2241032a15e61.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-2cd46beb3b73de73123e",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7717823",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:57.300020+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 8255,
+    "sha256": "08306a1a7bb1202a223c33800f12d8bd64e4d04a9036fd31260c686c6fe84543",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:57.435188+00:00",
+    "body_file": "datacite-2cd46beb3b73de73123e.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-0b94cf8d803381ae010d",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7570844",
+    "params": null,
+    "started_utc": "2026-10-30T20:39:59.436712+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 10480,
+    "sha256": "3642006445ff558584a8ee020d1309b4d8c1d8777ac57dbf862e88e63171b906",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:39:59.574751+00:00",
+    "body_file": "datacite-0b94cf8d803381ae010d.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-8cdca8094a0d57a6b319",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7593992",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:01.575333+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 11227,
+    "sha256": "4f2258eac3f2b795e0444527445dc03ea089ba0c1d8e958db1ebef03eef3639a",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:01.708845+00:00",
+    "body_file": "datacite-8cdca8094a0d57a6b319.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-cd6da5fbe478309f67d4",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7570784",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:03.709620+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 8409,
+    "sha256": "05219d37b9978554f86e94ade168cf8b5dc0cb0f6804d810704d748cac0fa028",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:03.852856+00:00",
+    "body_file": "datacite-cd6da5fbe478309f67d4.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-5c211028d7c7a3594b55",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7725161",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:05.854698+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 8588,
+    "sha256": "f6c5021e8c28a64f86b1c9e3f39c330237493108c2e6c194a476fd4731ee623e",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:06.468094+00:00",
+    "body_file": "datacite-5c211028d7c7a3594b55.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-e34c02ce5d417dacfc32",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7570859",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:08.468301+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 9916,
+    "sha256": "57f74f570b1dc9a18cac1a9a912bc1b3e107688cdfc89785598fd22c54dc4d4f",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:08.600369+00:00",
+    "body_file": "datacite-e34c02ce5d417dacfc32.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-b846502e217dd9b8707d",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7577639",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:10.601811+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 11494,
+    "sha256": "1b0ff9d7ee653dea79d117f3b58ee4b21621bcfbd30b5b23e18eda0ab0cce839",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:10.737885+00:00",
+    "body_file": "datacite-b846502e217dd9b8707d.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-99d11262155887a0d3c0",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7618631",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:12.738215+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 11585,
+    "sha256": "98ae62a39d6bc95b703271d252eaa95bb4bf51663e97a12c3076aa7de4786822",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:12.880281+00:00",
+    "body_file": "datacite-99d11262155887a0d3c0.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-d2fe1170b42ab9132fe4",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7916441",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:14.880729+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 12204,
+    "sha256": "ef3ca5d39218f37e7f4112782c06f4b254143ce1373a1b819dd19cb72c49cc16",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:15.048974+00:00",
+    "body_file": "datacite-d2fe1170b42ab9132fe4.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  },
+  {
+    "key": "datacite-cb061a51e311562885fb",
+    "url": "https://api.datacite.org/dois/10.6084/m9.figshare.7764974",
+    "params": null,
+    "started_utc": "2026-10-30T20:40:17.049020+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Encoding": "gzip"
+    },
+    "stored_bytes": 11272,
+    "sha256": "571e27dcbae6d1e48b2b420af6d35ed7cbac3c9d42390e3217f72afe56788e57",
+    "stored_representation": "Requests-decoded entity, not compressed wire bytes",
+    "completed_utc": "2026-10-30T20:40:17.188143+00:00",
+    "body_file": "datacite-cb061a51e311562885fb.json",
+    "status": "CAPTURED_VERIFIED_HTTPS"
+  }
+]
