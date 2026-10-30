@@ -1,0 +1,37 @@
+{
+  "crossref": {
+    "url": "https://api.crossref.org/works",
+    "params": {
+      "rows": 100,
+      "filter": "type:journal-article,relation.type:is-supplemented-by,relation.object-type:doi,from-pub-date:2019-01-01,until-pub-date:2019-12-31",
+      "sort": "published",
+      "order": "asc",
+      "select": "DOI,relation,published,type"
+    }
+  },
+  "eligible_prefixes": [
+    "10.5061",
+    "10.6084",
+    "10.5281"
+  ],
+  "datacite_base": "https://api.datacite.org/dois/",
+  "metadata_lookup_cap": 40,
+  "required_real_dataset_pairs": 16,
+  "phase_real_counts": {
+    "development": 8,
+    "final": 8
+  },
+  "authored_controls": {
+    "development": [
+      "10.5281/zenodo.000000000000.study42-20261030-development-1",
+      "10.5281/zenodo.000000000000.study42-20261030-development-2",
+      "10.5281/zenodo.000000000000.study42-20261030-development-3"
+    ],
+    "final": [
+      "10.5281/zenodo.000000000000.study42-20261030-final-1",
+      "10.5281/zenodo.000000000000.study42-20261030-final-2",
+      "10.5281/zenodo.000000000000.study42-20261030-final-3"
+    ]
+  },
+  "repeat_minimum_seconds": 1200
+}
